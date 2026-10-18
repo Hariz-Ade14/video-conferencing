@@ -1,0 +1,10 @@
+/Users/user/Desktop/video-call/backend/target/debug/deps/tokio_tungstenite-7dbaf9494df7d8c2.d: /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/lib.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/compat.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/connect.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/handshake.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/stream.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/tls.rs
+
+/Users/user/Desktop/video-call/backend/target/debug/deps/libtokio_tungstenite-7dbaf9494df7d8c2.rmeta: /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/lib.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/compat.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/connect.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/handshake.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/stream.rs /Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/tls.rs
+
+/Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/lib.rs:
+/Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/compat.rs:
+/Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/connect.rs:
+/Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/handshake.rs:
+/Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/stream.rs:
+/Users/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-tungstenite-0.30.0/src/tls.rs:

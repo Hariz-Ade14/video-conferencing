@@ -1,0 +1,127 @@
+   0.337572215s  INFO prepare_target{force=false package_id=video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend) target="video_call_backend"}: cargo::core::compiler::fingerprint: fingerprint error for video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("video_call_backend", ["lib"], "/Users/user/Desktop/video-call/backend/src/lib.rs", Edition2024) }
+   0.338075625s  INFO prepare_target{force=false package_id=video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend) target="video_call_backend"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/user/Desktop/video-call/backend/target/debug/.fingerprint/video-call-backend-cb69bb2d496e198b/lib-video_call_backend`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+  17: <unknown>
+   0.472288545s  INFO prepare_target{force=false package_id=video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend) target="video_call_backend"}: cargo::core::compiler::fingerprint: fingerprint error for video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("video_call_backend", ["lib"], "/Users/user/Desktop/video-call/backend/src/lib.rs", Edition2024) }
+   0.472346687s  INFO prepare_target{force=false package_id=video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend) target="video_call_backend"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/user/Desktop/video-call/backend/target/debug/.fingerprint/video-call-backend-5ba7447675d782a0/test-lib-video_call_backend`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+  17: <unknown>
+   0.478906772s  INFO prepare_target{force=false package_id=video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend) target="video-call-backend"}: cargo::core::compiler::fingerprint: fingerprint error for video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend)/Check { test: false }/TargetInner { name: "video-call-backend", doc: true, ..: with_path("/Users/user/Desktop/video-call/backend/src/main.rs", Edition2024) }
+   0.478947644s  INFO prepare_target{force=false package_id=video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend) target="video-call-backend"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/user/Desktop/video-call/backend/target/debug/.fingerprint/video-call-backend-f7478a0763c5d219/bin-video-call-backend`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+  17: <unknown>
+   0.480580108s  INFO prepare_target{force=false package_id=video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend) target="video-call-backend"}: cargo::core::compiler::fingerprint: fingerprint error for video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend)/Check { test: true }/TargetInner { name: "video-call-backend", doc: true, ..: with_path("/Users/user/Desktop/video-call/backend/src/main.rs", Edition2024) }
+   0.480604823s  INFO prepare_target{force=false package_id=video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend) target="video-call-backend"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/user/Desktop/video-call/backend/target/debug/.fingerprint/video-call-backend-76612113e8d02e58/test-bin-video-call-backend`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+  17: <unknown>
+   0.482048041s  INFO prepare_target{force=false package_id=video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend) target="server"}: cargo::core::compiler::fingerprint: fingerprint error for video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend)/Check { test: true }/TargetInner { kind: "test", name: "server", benched: false, ..: with_path("/Users/user/Desktop/video-call/backend/tests/server.rs", Edition2024) }
+   0.482070946s  INFO prepare_target{force=false package_id=video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend) target="server"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/user/Desktop/video-call/backend/target/debug/.fingerprint/video-call-backend-592a3e5157017719/test-integration-test-server`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+  17: <unknown>
+    Checking video-call-backend v0.1.0 (/Users/user/Desktop/video-call/backend)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.67s
